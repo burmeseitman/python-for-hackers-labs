@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Never commit secrets or captured production data
+.env
+.env.*
+*.key
+*.pem
+logs/
+captures/
